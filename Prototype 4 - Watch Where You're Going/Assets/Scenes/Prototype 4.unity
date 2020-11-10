@@ -535,7 +535,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c809c51410f1ec4690362e9eacbbb73, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 10
+  speed: 500
   focalPoint: {fileID: 0}
 --- !u!54 &1852884176
 Rigidbody:
@@ -545,7 +545,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1852884174}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 1.5
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -619,7 +619,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1852884174}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 10.62}
   m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
   m_Children: []
   m_Father: {fileID: 0}
@@ -654,7 +654,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 88cf05417fa63bf4cb1cc4c6fd7a7cfb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyPrefab: {fileID: 0}
+  enemyPrefab: {fileID: 3984381616492630575, guid: 3a3dd447ffea4114caaaf67273fc9203,
+    type: 3}
 --- !u!4 &2080204264
 Transform:
   m_ObjectHideFlags: 0
